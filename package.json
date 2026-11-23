@@ -1,0 +1,27 @@
+{
+  "name": "stale-branch-cli",
+  "version": "1.0.0",
+  "description": "Find and safely clean up stale Git branches",
+  "type": "module",
+  "bin": {
+    "stale-branch": "bin/cli.js"
+  },
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

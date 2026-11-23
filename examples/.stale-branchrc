@@ -1,0 +1,5 @@
+{
+  "days": 90,
+  "includeRemote": false,
+  "ignore": ["release/*", "hotfix/*"]
+}
